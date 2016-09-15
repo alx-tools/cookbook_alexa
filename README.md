@@ -4,6 +4,7 @@ She can do all sorts of things for you: play music, tell you the weather forecas
 We've created a cooking application that will contain your favorites recipes.
 Alexa will be able to tell you what to do, step by step, when you want to cook one of them.
 
+
 ## Amazon Alexa Documentation
 The documentation for the Alexa Skills Kit is available on the [Amazon Apps and Services Developer Portal](https://developer.amazon.com/appsandservices/solutions/alexa/alexa-skills-kit/).
 
@@ -16,8 +17,8 @@ The documentation for the Alexa Skills Kit is available on the [Amazon Apps and 
 
 
 ## About Holberton School
-![Holberton School logo]
-(http://photos2.meetupstatic.com/photos/event/3/0/0/8/600_446112296.jpeg)
+![Holberton School logo](http://photos2.meetupstatic.com/photos/event/3/0/0/8/600_446112296.jpeg)
+
 Holberton school is a community-driven school.
 We train full-stack software engineers in two years, using peer and project-based learning.
 At Holberton School, there are no formal teachers and no lectures, student learn by building.
