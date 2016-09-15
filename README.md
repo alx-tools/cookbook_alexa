@@ -14,16 +14,20 @@ The documentation for the Alexa Skills Kit is available on the [Amazon Apps and 
 - [recipes.js](src/recipes.js) : array of all recipes available
 - [index.js](src/index.js) : main program of Alexa. Mapping between key events and actions generated
 
+
 ## About Holberton School
-![Holberton School logo](http://photos2.meetupstatic.com/photos/event/3/0/0/8/600_446112296.jpeg)
+![Holberton School logo]
+(http://photos2.meetupstatic.com/photos/event/3/0/0/8/600_446112296.jpeg)
 Holberton school is a community-driven school.
 We train full-stack software engineers in two years, using peer and project-based learning.
 At Holberton School, there are no formal teachers and no lectures, student learn by building.
 Read more on [our website](https://www.holbertonschool.com/).
 
+
 ## Usage
 Tell Alexa "Let's cook!" You can ask Alexa what you have in your fridge or start a recipe with tomato, cucumber, avocado, or turkey.
 All words/sentences understandable by Alexa are in the file Utterances.txt
+
 
 ## Deploy
 To deploy your application to Amazon Echo:
@@ -32,6 +36,7 @@ To deploy your application to Amazon Echo:
 - upload and save this archive in your AWS Lambda application [my application](https://console.aws.amazon.com/lambda/home?region=us-east-1#/functions/cook?tab=code)
 - copy contents of `IntentSchema.json` and `Utterances.txt`, paste it in AWS Alexa Skill portal [my application](https://developer.amazon.com/edw/home.html#/skill/amzn1.ask.skill.3f75ce0b-1fe6-4748-a438-88f5da60c973/en_US/intentSchema/list) and save
 - when it's done loading, Alexa is ready
+
 
 ## Resources
 Here are a few direct links to our documentation:
