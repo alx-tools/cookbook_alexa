@@ -1,0 +1,13 @@
+LetsCookIntentFridge what do we have in the fridge
+LetsCookIntentFridge in the fridge
+LetsCookIntentRecipe Let's cook something with tomato and cucumber
+LetsCookIntentRecipe tomato and cucumber
+LetsCookIntentRecipe tomato
+LetsCookIntentRecipe cucumber
+LetsCookIntentValidRecipe Yes
+LetsCookIntentValidRecipe Ok
+LetsCookIntentNextStep what's the next step
+LetsCookIntentNextStep next step
+LetsCookIntentNextStep next
+LetsCookIntentNextStep what i have to do
+LetsCookIntentPushUp let's do push up

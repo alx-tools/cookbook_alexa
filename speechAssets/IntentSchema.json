@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "LetsCookIntentFridge"
+    },
+    {
+      "intent": "LetsCookIntentRecipe"
+    },
+    {
+      "intent": "LetsCookIntentValidRecipe"
+    },
+    {
+      "intent": "LetsCookIntentNextStep"
+    },
+    {
+      "intent": "LetsCookIntentPushUp"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
