@@ -9,5 +9,5 @@ LetsCookIntentValidRecipe Ok
 LetsCookIntentNextStep what's the next step
 LetsCookIntentNextStep next step
 LetsCookIntentNextStep next
-LetsCookIntentNextStep what i have to do
-LetsCookIntentPushUp let's do push up
+LetsCookIntentNextStep what do i have to do
+LetsCookIntentPushUp let's do push ups

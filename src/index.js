@@ -1,5 +1,5 @@
 // Alexa Skill application ID
-var APP_ID = "amzn1.ask.skill.3f75ce0b-1fe6-4748-a438-88f5da60c973"; 
+var APP_ID = "amzn1.ask.skill.3f75ce0b-1fe6-4748-a438-88f5da60c973";
 
 // Import AlexaSkill
 var AlexaSkill = require('./AlexaSkill');
@@ -27,7 +27,7 @@ LetsCook.prototype.eventHandlers.onLaunch = function (launchRequest, session, re
 */
 var getRecipes = function(ingredient) {
     var result = [];
-   
+
     if (ingredient == 'cucumber') {
         result = [recipes[3]];
     }
@@ -52,7 +52,7 @@ var doRecipe = function(ingredient, session, response) {
     session.attributes = {};
     session.attributes['recipe'] = recipe;
     session.attributes['step'] = step + 1;
-    
+
     text = "Ok let’s start. Step " + (step+1) + ", " + recipe['directions'][step];
     response.tell(text, false);
 };
@@ -63,12 +63,12 @@ var doRecipe = function(ingredient, session, response) {
 LetsCook.prototype.intentHandlers = {
     "LetsCookIntentFridge": function (intent, session, response) {
         session.attributes['just_asked'] = 0;
-        response.tell("Well, you didn't do shopping since 4 days, so you have only cucumbers, avocados and turkey breast. Ho wait, your turkey is out of date", false);
+        response.tell("Well, you haven't gone shopping in 4 days, so you only have cucumbers, avocados and turkey breast. No wait, your turkey is out of date", false);
     },
     "LetsCookIntentRecipe": function (intent, session, response) {
         if (!session.attributes) session.attributes = {};
         session.attributes['just_asked'] = 1;
-        response.ask("We can do tomato and cucumber salad if you want");
+        response.ask("We can do a tomato and cucumber salad if you want");
     },
     "LetsCookIntentValidRecipe": function (intent, session, response) {
         if (!session.attributes) session.attributes = {};
@@ -80,7 +80,7 @@ LetsCook.prototype.intentHandlers = {
         }
     },
     "LetsCookIntentPushUp": function (intent, session, response) {
-        response.tell("Indeed, you didn't do push ups since 2 days, Ready? Steady? Go!", false);
+        response.tell("Indeed, you haven't done push ups in 2 days, Ready? Steady? Go!", false);
     },
     "LetsCookIntentNextStep": function (intent, session, response) {
         var text = "It’s finished, well done";
@@ -108,4 +108,3 @@ exports.handler = function (event, context) {
     var letscook = new LetsCook();
     letscook.execute(event, context);
 };
-
